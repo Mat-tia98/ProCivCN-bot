@@ -2,6 +2,7 @@ services:
   - type: web
     name: bot-protezione-civile
     runtime: python
+    pythonVersion: 3.10
     buildCommand: "pip3 install -r requirements.txt"
     startCommand: "python3 main.py"
     envVars:
